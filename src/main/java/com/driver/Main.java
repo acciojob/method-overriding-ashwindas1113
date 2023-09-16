@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static class A {
-        String meth() {
+        public String meth() {
             return "Invoking method from class A";
         }
     }
@@ -18,7 +18,7 @@ public class Main {
     public static class B extends A {
         // Task 4: Override the meth method in class B.
         @Override
-        String meth() {
+        public String meth() {
             return "Method is overridden in Extended class B";
         }
     }
